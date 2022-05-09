@@ -3,63 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <title>Admin Dashboard</title>
-    
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container"> 
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="header-upper">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+                    <input type="search" name="" id="" class="header-search">
+                <span class="material-symbols-outlined bell">
+                        notifications_active
+                        </span>
+                <img src="/img/ProfilePicture.png" height="32px"> 
+                <p>Mikel Sigler</p>
+            </div>
+
+            <div class="header-lower">
+                <div class="profile-pic"><img src="/img/ProfilePicture.png" height="48px"> </div>
+                <div class="greeting"><p>Hello There</p> <h3>Mikel Sigler (@mzsigler)</h3></div>
+                <button class="header-button">New</button>
+                <button class="header-button">Upload</button>
+                <button class="header-button">Share</button>
+            </div>
+        </div>
 
         <div class="sidebar">
-            <div class="logo">
-                <h1>Dashboard</h1>
+            <div class="sidebar-logo"><p>
+                <span class="material-symbols-outlined">
+                    dashboard
+                    </span> Dashboard
+            </p></div>
+            <div class="controls">
+                <div class="control"><span class="material-symbols-outlined">
+                    cottage
+                    </span> Home</div>
+                <div class="control"><span class="material-symbols-outlined">
+                    gbadge
+                    </span> Profile</div>
+                <div class="control"><span class="material-symbols-outlined">
+                    android_messages
+                    </span> Messages</div>
+                <div class="control"><span class="material-symbols-outlined">
+                    history
+                    </span> History</div>
+                <div class="control"><span class="material-symbols-outlined">
+                    task
+                    </span> Tasks</div>
+                <div class="control"><span class="material-symbols-outlined">
+                    forum
+                    </span> Communities</div>
+            </div>
+            <div class="settings">
+                <div class="setting"> <span class="material-symbols-outlined">
+                    settings
+                    </span> Settings</div>
+                <div class="setting"><span class="material-symbols-outlined">
+                    help_center
+                    </span> Support</div>
+                <div class="setting"><span class="material-symbols-outlined">
+                    verified_user
+                    </span> Privacy</div>
+            </div>
+    
+        </div>
+
+        <div class="main">
+            <div class="main-left">
+                <div class="main-left-card">
+                    <div class="main-left-item">
+                        <h4>Wow an item!</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptates fugit harum.</p>
+                        <p><span class="material-symbols-outlined">
+                            favorite
+                            </span><span class="material-symbols-outlined">
+                                visibility
+                                </span><span class="material-symbols-outlined">
+                                    share
+                                    </span></p></div>
+                </div>
+
+                <div class="main-left-card">
+                    <div class="main-left-item">
+                        <h4>OMFG THERE ARE SO MANY!</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos voluptatum sapiente dolor voluptatibus molestiae.</p>
+                        <p><span class="material-symbols-outlined">
+                            favorite
+                            </span><span class="material-symbols-outlined">
+                                visibility
+                                </span><span class="material-symbols-outlined">
+                                    share
+                                    </span></p></div>
+                </div>
+
+                <div class="main-left-card">
+                    <div class="main-left-item">
+                        <h4>Another thing OMG!</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente optio, eos magni odio nisi iste! Voluptatem illum quam beatae incidunt?</p>
+                        <p><span class="material-symbols-outlined">
+                            favorite
+                            </span><span class="material-symbols-outlined">
+                                visibility
+                                </span><span class="material-symbols-outlined">
+                                    share
+                                    </span></p></div>
+                </div>
+
+                <div class="main-left-card">
+
+                    <div class="main-left-item">
+                        <h4>Wow such item!</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, est.</p>
+                        <p><span class="material-symbols-outlined">
+                            favorite
+                            </span><span class="material-symbols-outlined">
+                                visibility
+                                </span><span class="material-symbols-outlined">
+                                    share
+                                    </span></p></div>
+                </div>
+
+                <div class="main-left-card">
+                    <div class="main-left-item">
+                        <h4>Wow a thing!</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus atque dolore quam quasi.</p><p><span class="material-symbols-outlined">
+                        favorite
+                        </span><span class="material-symbols-outlined">
+                            visibility
+                            </span><span class="material-symbols-outlined">
+                                share
+                                </span></p></div>
+                </div>
+
+                <div class="main-left-card">
+                    <div class="main-left-item">
+                        <h4>OMGOMGOMG</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente optio, eos magni odio nisi iste! Voluptatem illum quam beatae incidunt?</p>
+                        <p><span class="material-symbols-outlined">
+                            favorite
+                            </span><span class="material-symbols-outlined">
+                                visibility
+                                </span><span class="material-symbols-outlined">
+                                    share
+                                    </span></p></div>
+                </div>
             </div>
 
-        
-            
+            <div class="main-right">
 
-                <div class="tools-icon">
-                    <img class="tools-icon" src="/img/home.png">
-                    <img class="tools-icon" src="/img/profile.png">
-                    <img class="tools-icon" src="/img/messages.png">
-                    <img class="tools-icon" src="/img/history.png">
-                    <img class="tools-icon" src="/img/tasks.png">
-                    <img class="tools-icon" src="/img/community.png">
+                <div class="main-right-upper">
+                    <div class="announcement">Lorem ipsum dolor sit amet.</div>
+                    <div class="announcement"></div>
+                    <div class="announcement"></div>
                 </div>
-            
 
-            
-                <div class="tools-text">
-                    <p class="tools-text"> Home</p>
-                    <p class="tools-text">  Profile </p>
-                    <p class="tools-text">  Messages </p>
-                    <p class="tools-text"> History </p>
-                    <p class="tools-text">  Tasks </p>
-                    <p class="tools-text">  Community </p>
+                <div class="main-right-lower">
+
                 </div>
-            
-            
-        
 
-            <div class="settings-text">
-                <p>Settings</p>
-                <p>Support</p>
-                <p>Privacy</p>
             </div>
-
-        </div>
-        
-        <div class="header">
-            <label for="search">Search</label>
-            <input class="searchbar" type="search" name="search">
         </div>
 
-        <div class="content">
-            <div class="projects"></div>
-            <div class="announcments"></div>
-            <div class="trending"></div>
-        </div>
+
 
     </div>
 </body>
